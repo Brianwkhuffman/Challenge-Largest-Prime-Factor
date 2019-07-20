@@ -8,8 +8,8 @@ exports.largestPrimeFactor = function(n) {
       n /= i;
     }
   }
-  let highNum = numArr[numArr.length - 1];
-  primeNumber = highNum;
+  primeNumber = numArr[numArr.length - 1];
 
   return primeNumber;
 };
+console.log(this.largestPrimeFactor(13195));
